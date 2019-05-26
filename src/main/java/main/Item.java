@@ -3,9 +3,8 @@ public class Item{
     public String itemName;
     public int mrp;
     public  void addItem(String itemName,int mrpItem){
-        //write your code here
-    	//-------------------
-
+        this.itemName = itemName;
+        this.mrp = mrpItem;
     }
 	public String getItemName() {
 		return itemName;
@@ -16,7 +15,7 @@ public class Item{
 	public int getMrp() {
 		return mrp;
 	}
-	public void setMrp(int mrp) {
+	public void setMrp(int mrp) { 
 		this.mrp = mrp;
 	}
     
